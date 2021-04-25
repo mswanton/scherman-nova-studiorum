@@ -4,10 +4,6 @@
   Parchments: Wheat, Antique White
 */
 
-main ul, main aside, footer {
-    display: none;
-}
-
 body{
     background-color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
@@ -93,11 +89,57 @@ header nav a:active {
 main p {
     
     color: #5C005C;
-    width: 80%;
+    width: 75%;
     margin: auto;
+    margin-bottom: 40px;
     padding: 10px;
 }
 
+.site-preview-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.site-preview-container ul{
+    flex: 55%;
+    margin-top: 0px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.site-preview-container li {
+    list-style: none;
+    border: 1px solid orchid;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.site-preview-container aside {
+    flex: 25%;
+    border: 2px solid orchid;
+    background-color: wheat;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.site-preview-container h2 {
+    text-align: center;
+    color: purple;
+}
+
+
+
+/* #endregion */
+
+/* ----------------------------- */
+
+/* -----------------------------
+   Styles for footer
+   ----------------------------- */
+/* #region */
 
 /* #endregion */
 
