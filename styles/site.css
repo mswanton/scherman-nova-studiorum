@@ -1,7 +1,7 @@
 /*
   Colors:
-  Purples: #5C005C, Purple, Orchid, Plum
-  Parchments: Wheat, Antique White
+  Purples: #5C005C, Purple, Orchid, Indigo
+  Parchments: Antique White, linen
 */
 
 body{
@@ -10,7 +10,7 @@ body{
 }
 
 /* -----------------------------
-   Styles for header
+   Shared styles for header
    ----------------------------- */
 /* #region */
 
@@ -24,12 +24,12 @@ header h1 {
     padding-bottom: 10px;
     background-color: Purple;
     border: 1px solid orchid;
-    color: wheat;
+    color: linen;
 }
 
 header nav {
     background-color: purple;
-    color: wheat;
+    color: linen;
 }
 
 header nav ul{
@@ -53,27 +53,27 @@ header nav a{
 
 header nav a:link {
     text-decoration: none;
-    color: wheat;
+    color: linen;
     font-weight: bold;
 }
 
 header nav a:visited {
     text-decoration: none;
-    color: wheat;
+    color: linen;
     font-weight: bold;
 }
 
 header nav a:hover {
     background-color: indigo;
     text-decoration: none;
-    color: wheat;
+    color: linen;
     font-weight: bold;
 }
 
 header nav a:active {
     background-color: orchid;
     text-decoration: underline;
-    color: wheat;
+    color: linen;
     font-weight: bold;
 }
 
@@ -82,70 +82,18 @@ header nav a:active {
 /* ----------------------------- */
 
 /* -----------------------------
-   Styles for main
+   Shared styles for main
    ----------------------------- */
 /* #region */
-
-main p {
-    
+p {
     color: #5C005C;
-    width: 75%;
-    margin: auto;
-    margin-bottom: 40px;
-    padding: 10px;
+    font-size: larger;
 }
 
-.site-preview-container {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-.site-preview-container ul{
-    flex: 55%;
-    margin-top: 0px;
-    margin-right: 10px;
-    padding: 5px;
-}
-
-.site-preview-container li {
-    list-style: none;
-    margin-bottom: 20px;
-}
-
-.site-preview-container ul a {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    height: 375px;
-    width: 1088px;
-}
-
-.image-link-text {
-    display: block;
-    width: 1088px;
-    background-color: rgb(173, 216, 230, .5);
-    text-align: right;
-    font-size: 50px;
-    font-weight: bold;
-    color: indigo;
-    padding: 20px;
-}
-
-#group-link {
-    background-image: url(../images/longsword-button-crop.jpg);
-}
-
-#projects-link {
-    background-image: url(../images/book-button-crop.jpg);
-}
-
-.site-preview-container aside {
+aside {
     flex: 25%;
     border: 2px solid orchid;
-    background-color: wheat;
+    background-color: linen;
     margin-left: 10px;
     padding: 5px;
 }
@@ -155,14 +103,12 @@ main p {
     color: indigo;
 }
 
-
-
 /* #endregion */
 
 /* ----------------------------- */
 
 /* -----------------------------
-   Styles for footer
+   Shared styles for footer
    ----------------------------- */
 /* #region */
 
