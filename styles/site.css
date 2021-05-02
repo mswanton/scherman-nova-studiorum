@@ -1,6 +1,7 @@
 /*
   Colors:
   Purples: #5C005C, Purple, Orchid, Indigo
+  Blue: 
   Parchments: Antique White, linen
 */
 
@@ -90,6 +91,22 @@ p {
     font-size: larger;
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.primary-content-container{
+    flex: 55%;
+    margin-top: 0px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
 aside {
     flex: 25%;
     border: 2px solid indigo;
@@ -98,7 +115,7 @@ aside {
     padding: 5px;
 }
 
-.site-preview-container h2 {
+aside h2 {
     text-align: center;
     color: indigo;
 }
