@@ -86,13 +86,21 @@ header nav a:active {
    Shared styles for main
    ----------------------------- */
 /* #region */
-p {
+h1, h2, h3 {
+    color: indigo;
+}
+
+p, li {
     color: #5C005C;
+}
+
+p {
     font-size: larger;
 }
 
 main {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 90%;
     margin-bottom: 40px;
@@ -111,8 +119,9 @@ aside {
     flex: 25%;
     border: 2px solid indigo;
     background-color: linen;
+    margin-top: 20px;
     margin-left: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 aside h2 {
