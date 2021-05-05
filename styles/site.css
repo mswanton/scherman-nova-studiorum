@@ -21,9 +21,12 @@ header h1 {
     width: 90%;
     margin-right: 5%;
     margin-left: 5%;
-    padding-top: 90px;
+    padding-top: 120px;
     padding-bottom: 10px;
-    background-color: Purple;
+    background-image: url(../images/swords-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px solid orchid;
     color: linen;
 }
@@ -90,6 +93,10 @@ header nav a:active {
 /* Default element styling */
 h1, h2, h3 {
     color: indigo;
+}
+
+h1 {
+    font-size: xx-large;
 }
 
 p, li {
