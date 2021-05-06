@@ -135,6 +135,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
     width: 90%;
     margin-bottom: 40px;
     margin-right: 5%;
@@ -156,6 +157,7 @@ aside {
     margin-left: 10px;
     padding: 20px;
     box-shadow: 4px 2px 2px orchid;
+    /*align items?*/
 }
 
 aside h2 {
