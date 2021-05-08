@@ -68,7 +68,7 @@ header nav a:visited {
 }
 
 header nav a:hover {
-    background-color: indigo;
+    background-color: #5C005C;
     text-decoration: none;
     color: linen;
     font-weight: bold;
@@ -79,6 +79,10 @@ header nav a:active {
     text-decoration: underline;
     color: linen;
     font-weight: bold;
+}
+
+#you-are-here {
+    background-color: indigo;
 }
 
 /* #endregion */
