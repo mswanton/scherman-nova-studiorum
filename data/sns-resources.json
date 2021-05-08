@@ -1,0 +1,84 @@
+{
+    "resources": [
+        {
+            "culture":[
+                {
+                    "name": "Fear is the Mindkiller - Kaja Sadowski",
+                    "type": "Book",
+                    "description": "Excellent book on building safe, inclusing and effective training spaces in martial arts.  Great resource whether you are an instructor/organizer or just looking for guidance in structuring your own training.",
+                    "link": "https://kajaswords.com/2019/05/20/fear-is-the-mind-killer-is-now-available/"
+                },
+                {
+                    "name": "The Theory and Practice of Historical Martial Arts - Guy Windsor",
+                    "type": "Book",
+                    "description": "Overview of studying historical martial arts, including instruction on working with historical manuals, skill development, safety and putting together training groups and classes.",
+                    "link": "https://guywindsor.net/book/the-theory-and-practice-of-hma/"
+                }
+            ],
+            "instructional":[
+                {
+                    "name": "TheTavernKnightsBarracks - Justin Aucoin",
+                    "type": "Video Instruction",
+                    "description": "Recorded video lessons in Italian Rapier from instructor Justin Aucoin.",
+                    "link": "https://www.youtube.com/c/TheTavernKnightsBarracks/featured"
+                },
+                {
+                    "name": "Fundamentals of Italian Rapier - David Coblentz and Dori Coblentz",
+                    "type": "Book",
+                    "description": "A modern instructional manual containing both theoretical foundations and practical exercises for those interested in studying 17th century Italian rapier.",
+                    "link": "https://bookshop.org/books/fundamentals-of-italian-rapier/9780985444136"
+                },
+                {
+                    "name": "David Coblentz and Dori Coblentz",
+                    "type": "Video Instruction",
+                    "description": "Recorded video lessons in Italian Rapier from instructors Dori and David Coblentz of the Decatur School of Arms.",
+                    "link": "https://www.youtube.com/channel/UCBwI2oPR0LPaJhGLpTERVzw"
+                },
+                {
+                    "name": "Fighting with the German Longsword - Christian Tobler",
+                    "type": "Book",
+                    "description": "A how to guide for learning the German longsword tradition based on the 14th century teachings of Johannes Liechtenauer.",
+                    "link": "https://www.freelanceacademypress.com/fightingwiththegermanlongsword-paperback.aspx"
+                },
+                {
+                    "name": "The Medieval Longsword - Guy Windsor",
+                    "type": "Book",
+                    "description": "A complete modern guide and system for training medieval longsword, drawing from 15th century manual Il Fiore di Battaglia, written by Fiore di Liberi in 1410.",
+                    "link": "https://guywindsor.net/book/the-medieval-longsword/"
+                },
+                {
+                    "name": "The Duellist's Companion - Guy Windsor",
+                    "type": "Book",
+                    "description": "A modern interpretation and training guide for the 17th century rapier system created by Capoferro.",
+                    "link": "https://guywindsor.net/book/the-medieval-longsword/"
+                },
+                {
+                    "name": "Guy Windsor",
+                    "type": "Author/Translator",
+                    "description": "A listing of the works of Guy Windsor, a well known Historical European Martial Arts instructor and researcher.  His work covers largely the Italian tradition across a number of weapons, including lonsword, rapier and dagger.",
+                    "link": "https://guywindsor.net/"
+                }
+            ],
+            "historical":[
+                {
+                    "name": "Wiktenauer",
+                    "type": "Website",
+                    "description": "Collaborative website for collecting free to access manuscripts and translations relating to Historical European Martial Arts.",
+                    "link": "https://www.wiktenauer.com/wiki/Main_Page"
+                },
+                {
+                    "name": "Reinier van Noort",
+                    "type": "Author/Translator",
+                    "description": "A listing of works by Reinier van Noort, a teacher, researcher and practitioner of Historical European Martial Arts who has published a number of translations of historical manuals and books on the subject, focusing on Single Rapier from late 17th century German and the Netherlands, as well as Italian sidesword.",
+                    "link": "https://www.fallenrookpublishing.co.uk/authors/reinier-van-noort/"
+                },
+                {
+                    "name": "Jherek Swanger",
+                    "type": "Author/Translator",
+                    "description": "A listing of works by Jherek Swanger, an interpreter and translator of historical treatises whose work focuses on 16th/17th century Italian swordplay, French small sword and Bolognese swordsmanship.",
+                    "link": "https://www.lulu.com/spotlight/jswanger/"
+                }
+            ]
+        }
+    ]
+}
