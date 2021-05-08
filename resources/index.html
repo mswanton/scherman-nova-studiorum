@@ -86,13 +86,11 @@
             <div id="class-template" class="handlebars">
                 {{#resources}}
                     <li class="class-block"> 
-                        <span class="class-name">{{name}}</span>
+                        <span class="class-name"><a href="{{website}}">{{name}}</a></span>
                         <br/>
                         <span class="class-location">{{location}}</span>
                         <br/>
                         <span class="class-desc">{{description}}</span>
-                        <br/>
-                        <span class="class-website"><a href="{{website}}">{{website}}</a></span>
                     </li>
                 {{/resources}}
             </div>
