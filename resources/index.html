@@ -10,15 +10,42 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
         crossorigin="anonymous"></script>
+    <script 
+        src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" 
+        integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" 
+        crossorigin="anonymous"></script>
     <script>
         $(document).ready(function(){
             var bodyid = $('body').attr('id');
-            console.log("bodyid: " + bodyid);
             var navid = '#nav-' + bodyid;
-            console.log("navid: " + navid);
             $(navid).attr('id','you-are-here');
         });
     </script>
+    <script>
+        var baseUrl = "https://cdn.jsdelivr.net/gh/mswanton/scherman-nova-studiorum@main/data/"
+        var cultureUrl = baseUrl + "resources-culture.json";
+        var instructionalUrl = baseUrl + "resources-instructional.json";
+        var historicalUrl = baseUrl + "resources-historical.json";
+        var classesUrl = baseUrl + "resources-classes.json";
+
+
+        function buildResourceList(url, templateClass, container){
+            $.getJSON(url, function(data){
+                var source = $(templateClass).html();
+                var template = Handlebars.compile(source);
+                var list = template(data);
+                $(container).html(list);
+            })
+        }
+        
+        $(document).ready(function(){
+            buildResourceList(cultureUrl, '#resource-template', '#resources-culture-container');
+            buildResourceList(instructionalUrl, '#resource-template', '#resources-instructional-container');
+            buildResourceList(instructionalUrl, '#resource-template', '#resources-historical-container');
+            buildResourceList(classesUrl, '#class-template', '#classes-container');
+        })  
+    </script>
+
 </head>
 
 <body id="resource-list">
@@ -39,11 +66,53 @@
     <main>
         <section class="primary-content-container">
             <h1>Resources</h1>
+
+            <div id="resource-template" class="handlebars">
+                <ul>
+                    {{#resources}}
+                        <li class="resource-block">
+                            <span class="resource-name">{{name}}</span>
+                            <br/>
+                            <span class="resource-type">{{type}}</span>
+                            <br/>
+                            <span class="resource-desc">{{description}}</span>
+                            <br/>
+                            <span class="resource-link"><a href="{{link}}">{{link}}</a></span>
+                        </li>
+                    {{/resources}}
+                </ul>
+            </div>
+
+            <div id="class-template" class="handlebars">
+                {{#resources}}
+                    <li class="class-block"> 
+                        <span class="class-name">{{name}}</span>
+                        <br/>
+                        <span class="class-location">{{location}}</span>
+                        <br/>
+                        <span class="class-desc">{{description}}</span>
+                        <br/>
+                        <span class="class-website"><a href="{{website}}">{{website}}</a></span>
+                    </li>
+                {{/resources}}
+            </div>
+
+            <h2 class="resource-group-header">Practice Structure and Culture</h2>
+            <div id="resources-culture-container"></div>
+
+            <h2 class="resource-group-header">Instructional Resources</h2>
+            <div id="resources-instructional-container"></div>
+
+            <h2 class="resource-group-header">Period Manual Study and Interpretation</h2>
+            <div id="resources-historical-container"></div>
             
         </section>
         <aside>
             <h2>Want to take classes?</h2>
-            
+            <p>
+                There are lots of schools and instructors offering classes all over the world, but here are a few available locally or online.
+            </p>
+            <div id="classes-container"></div>         
         </aside>        
     </main>
     <footer>
