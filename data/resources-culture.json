@@ -1,0 +1,16 @@
+{
+	"resources": [
+		{
+			"name": "Fear is the Mindkiller - Kaja Sadowski",
+			"type": "Book",
+			"description": "Excellent book on building safe, inclusing and effective training spaces in martial arts.  Great resource whether you are an instructor/organizer or just looking for guidance in structuring your own training.",
+			"link": "https://kajaswords.com/2019/05/20/fear-is-the-mind-killer-is-now-available/"
+		},
+		{
+			"name": "The Theory and Practice of Historical Martial Arts - Guy Windsor",
+			"type": "Book",
+			"description": "Overview of studying historical martial arts, including instruction on working with historical manuals, skill development, safety and putting together training groups and classes.",
+			"link": "https://guywindsor.net/book/the-theory-and-practice-of-hma/"
+		}
+	]
+}

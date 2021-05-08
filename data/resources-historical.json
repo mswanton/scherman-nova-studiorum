@@ -1,0 +1,23 @@
+{
+	"resources": [
+		{
+			"name": "Wiktenauer",
+			"type": "Website",
+			"description": "Collaborative website for collecting free to access manuscripts and translations relating to Historical European Martial Arts.",
+			"link": "https://www.wiktenauer.com/wiki/Main_Page"
+		},
+		{
+			"name": "Reinier van Noort",
+			"type": "Author/Translator",
+			"description": "A listing of works by Reinier van Noort, a teacher, researcher and practitioner of Historical European Martial Arts who has published a number of translations of historical manuals and books on the subject, focusing on Single Rapier from late 17th century German and the Netherlands, as well as Italian sidesword.",
+			"link": "https://www.fallenrookpublishing.co.uk/authors/reinier-van-noort/"
+		},
+		{
+			"name": "Jherek Swanger",
+			"type": "Author/Translator",
+			"description": "A listing of works by Jherek Swanger, an interpreter and translator of historical treatises whose work focuses on 16th/17th century Italian swordplay, French small sword and Bolognese swordsmanship.",
+			"link": "https://www.lulu.com/spotlight/jswanger/"
+		}
+		
+	]
+}

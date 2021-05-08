@@ -1,0 +1,28 @@
+{
+	"resources":[
+		{
+			"name":"Athena School of Arms",
+			"location":"Somerville, MA",
+			"description":"A local HEMA school focusing on German Longsword with rotating classes on other weapons including Italian Rapier and Highland Broadsword",
+			"website":"http://athenaschoolofarms.org/index.php/about-us-2/classes/"
+		},
+		{
+			"name":"Tattershall School of Defense",
+			"location":"Online",
+			"description":"Tattershall School of Defence offers a varied online swordplay curriculum.",
+			"website":"https://tattershall.org/onlinelearning/"
+		},
+		{
+			"name":"Justin Aucoin",
+			"location":"Online",
+			"description":"Justin Aucoin offers both recorded video classes/content and teaches online classes twice a week on Mondays and Thursdays",
+			"website":"https://thetavernknight.wordpress.com/"
+		},
+		{
+			"name":"Valkyrie WMA",
+			"location":"Vancouver, CA, Online",
+			"description":"Valkyrie Martial Arts offers private training and classes covering a variety of weapons and styles with a focus on body mechanics, exploration and inclusivity.  Due to the pandemic all classes are currently online, and online instruction is planned to continue after in person training can resume.",
+			"website":"https://shopvalkyrie.ca/"
+		}
+	]
+}
