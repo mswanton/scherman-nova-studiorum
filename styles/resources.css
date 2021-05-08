@@ -1,0 +1,35 @@
+.handlebars{
+    display: none;
+}
+
+.resource-block, .class-block {
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.class-block {
+    margin-left: 30px;
+    list-style: none;
+}
+
+.resource-group-header {
+    display: block;
+    padding: 10px;
+    background-color: orchid;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+}
+
+.resource-name, .class-name {
+    font-weight: bold;
+}
+
+.resource-type, .class-location {
+    font-style: italic;
+    color: indigo;
+}
+
+.resource-link, .class-website {
+    display: block;
+    margin-top: 5px;
+}
