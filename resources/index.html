@@ -14,37 +14,8 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js" 
         integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg==" 
         crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function(){
-            var bodyid = $('body').attr('id');
-            var navid = '#nav-' + bodyid;
-            $(navid).attr('id','you-are-here');
-        });
-    </script>
-    <script>
-        var baseUrl = "https://cdn.jsdelivr.net/gh/mswanton/scherman-nova-studiorum@main/data/"
-        var cultureUrl = baseUrl + "resources-culture.json";
-        var instructionalUrl = baseUrl + "resources-instructional.json";
-        var historicalUrl = baseUrl + "resources-historical.json";
-        var classesUrl = baseUrl + "resources-classes.json";
-
-
-        function buildResourceList(url, templateClass, container){
-            $.getJSON(url, function(data){
-                var source = $(templateClass).html();
-                var template = Handlebars.compile(source);
-                var list = template(data);
-                $(container).html(list);
-            })
-        }
-        
-        $(document).ready(function(){
-            buildResourceList(cultureUrl, '#resource-template', '#resources-culture-container');
-            buildResourceList(instructionalUrl, '#resource-template', '#resources-instructional-container');
-            buildResourceList(instructionalUrl, '#resource-template', '#resources-historical-container');
-            buildResourceList(classesUrl, '#class-template', '#classes-container');
-        })  
-    </script>
+    <script src='../scripts/you-are-here.js'></script>
+    <script src='../scripts/build-resources-lists.js'></script>
 
 </head>
 
