@@ -7,16 +7,16 @@
 			"website":"http://athenaschoolofarms.org"
 		},
 		{
-			"name":"Tattershall School of Defense",
-			"location":"Online",
-			"description":"Tattershall School of Defence offers a varied online swordplay curriculum.",
-			"website":"https://tattershall.org/onlinelearning/"
-		},
-		{
 			"name":"Justin Aucoin",
 			"location":"Online",
 			"description":"Justin Aucoin offers both recorded video classes/content and teaches online classes twice a week on Mondays and Thursdays",
 			"website":"https://thetavernknight.wordpress.com/"
+		},
+		{
+			"name":"Tattershall School of Defense",
+			"location":"Online",
+			"description":"Tattershall School of Defence offers a varied online swordplay curriculum.",
+			"website":"https://tattershall.org/onlinelearning/"
 		},
 		{
 			"name":"Valkyrie WMA",
