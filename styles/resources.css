@@ -10,6 +10,7 @@
 .class-block {
     margin-left: 30px;
     list-style: none;
+    font-size: larger;
 }
 
 .resource-group-header {
