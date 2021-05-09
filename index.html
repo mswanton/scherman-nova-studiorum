@@ -1,66 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Scherma Nova Studiorum - Home</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="styles/site.css" />
-    <link rel="stylesheet" href="styles/home.css" />
-    <script 
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
-        crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function(){
-            var bodyid = $('body').attr('id');
-            console.log("bodyid: " + bodyid);
-            var navid = '#nav-' + bodyid;
-            console.log("navid: " + navid);
-            $(navid).attr('id','you-are-here');
-        });
-    </script>
-</head>
+    <head>
+        <title>Scherma Nova Studiorum - Home</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles/site.css" />
+        <link rel="stylesheet" href="styles/home.css" />
+        <script 
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+            crossorigin="anonymous"></script>
+        <script src='../scripts/you-are-here.js'></script>
+    </head>
 
-<body id="home">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" id="nav-home">Home</a></li>
-                <li><a href="our-group/index.html" id="nav-about">About</a></li>
-                <li><a href="#" id="nav-projects">Projects</a></li>
-                <li><a href="#" id="nav-gallery">Gallery</a></li>
-                <li><a href="resources/index.html" id="nav-resource-list">Resources</a></li>
-                <li><a href="#" id="nav-events">Events</a></li>
-                <li><a href="#" id="nav-contact">Contact Us</a></li>
-            </ul>
-        </nav>
-        <h1>Scherma Nova Studiorum</h1>  
-    </header>
-    <main>
-        <div class="primary-content-container">
-            <p>
-                Translating loosely to "Our Sword Study" we are a group of students of historical martial arts coming together to promote collaborative learning and helping one another structure our own study.  We aim to provide a supportive environment and help connect people to the resources they need to further their own learning and progress in the aspects of historical martial arts that they are passionate about.  
-            </p>
-            <ul>
-                <li><a href="our-group/index.html" class="preview-link" id="group-link"><span class="preview-link-text">About Our Group</span></a></li>
-                <li><a href="#" class="preview-link" id="projects-link"><span class="preview-link-text">Our Projects</span></a></li>
-                <li><a href="#" class="preview-link" id="gallery-link"><span class="preview-link-text">Gallery</span></a></li>
-            </ul>
-        </div>
-        <aside>
-            <h2>Resources</h2>
-            <p>
-                Historical martial arts is a large hobby and field studied by many different schools, organizations and individuls each with their own emphasis, focus and methods.  No matter what you want to study, there are probably resources out there that could be helpful for you, whether you want to focus on a particular period style, upping your tournament game or just better structuring your training environment.  That said, starting to look for this information can be very overwhelming given that it is all over.  We are working to compile a <a href="resources/index.html">list of resources</a> to help our members and others find what they need to help with their training and study.
-            </p>
-            <p>
-                In addition, every year there are many events which happen every year from classes to tournaments to multi day conferences.  We also keep a list of some of of these <a href="#">upcoming events</a>, with a focus on local and regional events and those that are accessible online.  
-            </p>
-        </aside>
-    </main>
-    <footer>
-        <p id="footer-latin-name">Scherma Nova Studiorum</p>
-        <p id="footer-english-name">Our Sword Study</p>
-    </footer>
-</body>
+    <body id="home">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="nav-home">Home</a></li>
+                    <li><a href="our-group/index.html" id="nav-about">About</a></li>
+                    <li><a href="#" id="nav-projects">Projects</a></li>
+                    <li><a href="#" id="nav-gallery">Gallery</a></li>
+                    <li><a href="resources/index.html" id="nav-resource-list">Resources</a></li>
+                    <li><a href="#" id="nav-events">Events</a></li>
+                    <li><a href="#" id="nav-contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <h1>Scherma Nova Studiorum</h1>  
+        </header>
+        <main>
+            <div class="primary-content-container">
+                <p>
+                    Translating loosely to "Our Sword Study" we are a group of students of historical martial arts coming together to promote collaborative learning and helping one another structure our own study.  We aim to provide a supportive environment and help connect people to the resources they need to further their own learning and progress in the aspects of historical martial arts that they are passionate about.  
+                </p>
+                <ul>
+                    <li><a href="our-group/index.html" class="preview-link" id="group-link"><span class="preview-link-text">About Our Group</span></a></li>
+                    <li><a href="#" class="preview-link" id="projects-link"><span class="preview-link-text">Our Projects</span></a></li>
+                    <li><a href="#" class="preview-link" id="gallery-link"><span class="preview-link-text">Gallery</span></a></li>
+                </ul>
+            </div>
+            <aside>
+                <h2>Resources</h2>
+                <p>
+                    Historical martial arts is a large hobby and field studied by many different schools, organizations and individuls each with their own emphasis, focus and methods.  No matter what you want to study, there are probably resources out there that could be helpful for you, whether you want to focus on a particular period style, upping your tournament game or just better structuring your training environment.  That said, starting to look for this information can be very overwhelming given that it is all over.  We are working to compile a <a href="resources/index.html">list of resources</a> to help our members and others find what they need to help with their training and study.
+                </p>
+                <p>
+                    In addition, every year there are many events which happen every year from classes to tournaments to multi day conferences.  We also keep a list of some of of these <a href="#">upcoming events</a>, with a focus on local and regional events and those that are accessible online.  
+                </p>
+            </aside>
+        </main>
+        <footer>
+            <p id="footer-latin-name">Scherma Nova Studiorum</p>
+            <p id="footer-english-name">Our Sword Study</p>
+        </footer>
+    </body>
 
 </html>
