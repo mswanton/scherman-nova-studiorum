@@ -2,8 +2,13 @@
 <html lang="en">
 
     <head>
-        <title>Scherma Nova Studiorum - About Our Group</title>
+        <title>Resources - Nova Scherma Studiorum</title>
+
         <meta charset="utf-8" />
+
+        <meta name="title" content="About Our Group - Scherma Nova Studiorum">
+        <meta name="description" content="Provides a collection of resources and school listings for students of Historical Martial Arts.">
+
         <link rel="stylesheet" href="../styles/site.css" />
         <link rel="stylesheet" href="../styles/resources.css" />
         <script 
@@ -55,15 +60,17 @@
                 </div>
 
                 <div id="class-template" class="handlebars">
-                    {{#resources}}
-                        <li class="class-block"> 
-                            <span class="class-name"><a href="{{website}}">{{name}}</a></span>
-                            <br/>
-                            <span class="class-location">{{location}}</span>
-                            <br/>
-                            <span class="class-desc">{{description}}</span>
-                        </li>
-                    {{/resources}}
+                    <ul>
+                        {{#resources}}
+                            <li class="class-block"> 
+                                <span class="class-name"><a href="{{website}}">{{name}}</a></span>
+                                <br/>
+                                <span class="class-location">{{location}}</span>
+                                <br/>
+                                <span class="class-desc">{{description}}</span>
+                            </li>
+                        {{/resources}}
+                    </ul>
                 </div>
 
                 <h2 class="resource-group-header">Practice Structure and Culture</h2>
